@@ -5,8 +5,8 @@
 int main(int argc, char *argv[]) {
     clock_t start, end;
     double cpu_time_used;
-    int n = 10e6;
-    int thread_count = 4;
+    int n = 10e6 ;
+    int thread_count = 1;
     int block_size = 16;
     if (argc == 3) {
         n = strtol(argv[1], NULL,10);
